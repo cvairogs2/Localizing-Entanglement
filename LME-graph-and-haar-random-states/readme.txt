@@ -1,8 +1,8 @@
 The code here may be used to compute the LME of arbitrary states specified by their state vector.
 
-To generate a state vector (matrix) corresponding to (weighted) graph state as in sections 7 and 8 of the article, use the "generateGraphState" function.
+To generate a state vector (matrix) corresponding to (weighted) graph state as in sections 7 and 8 of the main article, use the "generateGraphState" function.
 
-To generate a Haar random state as in section 3 of the article, use the "qr_Haar" function to generate a Haar-random unitary and multiply it by a fixed state vector. 
+To generate a Haar random state as in section 3 of the main article, use the "qr_Haar" function to generate a Haar-random unitary and multiply it by a fixed state vector. 
 
 To directly compute the LME of a state vector, use the "optimizedLME" function and specify the entanglement measure of choice. Similar functions such as "opt," "optLoop," and "LME" are supporting functions used in the particle swarm optimization that computes the LME. 
 

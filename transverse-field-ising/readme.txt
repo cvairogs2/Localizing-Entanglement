@@ -1,0 +1,3 @@
+The code contained in this directory is used to compute the LME of ground states of the Ising model Hamiltonian in the presence of a transverse magnetic field. It is used to generate the figures of section 8 of the main article.
+
+The script in the file "tfimsave.cpp" diagonalizes the full Hamiltonian while the script in the file "swarm.cpp" uses particle swarm optimization to compute the LME of the ground state eigenvector. The code in "twopointq.cpp" computes the lower bound from Theorem 4 of the main article for the ground state eigenvectors. To run the code, you can use, for example, "g++ swarm.cpp -O2 swarm -lpagmo" and run the generated file
